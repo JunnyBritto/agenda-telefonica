@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ADFDC3;
+    padding-top: 20px;
+    margin: 50px;
+}
+header {
+    background-color: #D9D9D9;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    align-items: center;
+    margin: 18px;
+    border-radius: 10px;
+
+}
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 18px;
+    font-family: "SUSE", sans-serif;
+    text-align: center;
+}
+header .input-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 18px 0; 
+}
+header input{
+    margin: 18px;
+    font-size: 24px;
+    background-color: #FDF8F8;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+header button{
+    background-color: #D973FD;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+header button:hover {
+    background-color: #e2b0d7 ;
+}
+body table{
+    background-color: #D9D9D9 ;
+    margin: 18px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+table{
+    width: 97.3%;
+}
+table th{
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-family: "SUSE", sans-serif;
+    font-weight: bold;
+    background-color: #FDF8F8;
+}
+table td{
+    padding: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 18px;
+}
+footer {
+    background-color: #888888;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    padding: 50px 0;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: space-between;
+    width: 97.3%;
+    margin: 18px;
+    text-align: center;
+    border-radius: 10px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Agenda Telefônica</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda Telefônica</h1>
+            <div class="input-container">
+            <form id="form-contato">
+            <input type="text" id="nome-contato" required placeholder="Nome do contato" />
+            <input type="tel" id="numero-contato" required placeholder="Número de Telefone" />
+            <button type="submit">+</button> 
+            </div>
+        </form>
+    </header>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome do contato</th>
+                    <th>Número de Telefone</th>  
+                        
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total de contatos</td>
+                    <td id="contatos-total">---</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+<footer> Feito por Juliana Brito. Curso de Full Stack Python pela EBAC <br> 
+    &copy; Agenda Telefônica - Todos os direitos reservados - 2024</footer>
+</html>
